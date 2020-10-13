@@ -12,8 +12,8 @@ import cucumber.api.junit.Cucumber;
 	glue= {"com\\stepdefination"},
 	strict = true,
 	monochrome = true,
-	plugin = {"pretty","html:html-output","json:target/cucumber-reports/CucumberTestReport.json"}
-		
+	plugin = {"pretty","html:html-output","json:target/cucumber-reports/CucumberTestReport.json"},
+	tags = {"@Smoke"}	
 		
 		
 		)
