@@ -1,4 +1,40 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("homepage.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("driverLuanch.feature");
+formatter.feature({
+  "line": 1,
+  "name": "Driver launch with parameter",
+  "description": "",
+  "id": "driver-launch-with-parameter",
+  "keyword": "Feature"
+});
+formatter.before({
+  "duration": 747500,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 3,
+  "name": "Teest Driver launch",
+  "description": "",
+  "id": "driver-launch-with-parameter;teest-driver-launch",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 4,
+  "name": "launch browser",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "LaunchBrwoser.launch_browser()"
+});
+formatter.result({
+  "duration": 147007800,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 1852700,
+  "status": "passed"
+});
+formatter.uri("homepage.feature");
 formatter.feature({
   "line": 1,
   "name": "HomePage link validation",
@@ -7,34 +43,40 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 357200,
+  "duration": 636900,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 3,
+  "line": 5,
   "name": "Number of valid links on HomePage",
   "description": "",
   "id": "homepage-link-validation;number-of-valid-links-on-homepage",
   "type": "scenario",
-  "keyword": "Scenario"
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 4,
+      "name": "@Smoke"
+    }
+  ]
 });
 formatter.step({
-  "line": 4,
+  "line": 6,
   "name": "user launnch the application with url",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 5,
+  "line": 7,
   "name": "verify the title the of login page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 6,
+  "line": 8,
   "name": "user enter userid and password",
   "keyword": "When "
 });
 formatter.step({
-  "line": 7,
+  "line": 9,
   "name": "user count the tag by link tag a",
   "keyword": "Then "
 });
@@ -42,32 +84,32 @@ formatter.match({
   "location": "LoginPageStepdef.user_launnch_the_application_with_url()"
 });
 formatter.result({
-  "duration": 225356100,
+  "duration": 3435800,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPageStepdef.verify_the_title_the_of_login_page()"
 });
 formatter.result({
-  "duration": 826500,
+  "duration": 399100,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPageStepdef.user_enter_userid_and_password()"
 });
 formatter.result({
-  "duration": 234600,
+  "duration": 387600,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePageStepdef.user_count_the_tag_by_link_tag_a()"
 });
 formatter.result({
-  "duration": 315700,
+  "duration": 418200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 399700,
+  "duration": 430600,
   "status": "passed"
 });
 formatter.uri("login.feature");
@@ -79,11 +121,11 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 355900,
+  "duration": 120600,
   "status": "passed"
 });
 formatter.before({
-  "duration": 405800,
+  "duration": 367600,
   "status": "passed"
 });
 formatter.background({
@@ -102,7 +144,7 @@ formatter.match({
   "location": "LoginPageStepdef.user_launnch_the_application_with_url()"
 });
 formatter.result({
-  "duration": 482500,
+  "duration": 100300,
   "status": "passed"
 });
 formatter.scenario({
@@ -138,25 +180,25 @@ formatter.match({
   "location": "LoginPageStepdef.verify_the_title_the_of_login_page()"
 });
 formatter.result({
-  "duration": 303700,
+  "duration": 206200,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPageStepdef.user_enter_userid_and_password()"
 });
 formatter.result({
-  "duration": 80600,
+  "duration": 93200,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPageStepdef.user_validated_the_homepage_title()"
 });
 formatter.result({
-  "duration": 530300,
+  "duration": 537200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 401200,
+  "duration": 408300,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -221,7 +263,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 593200,
+  "duration": 376300,
   "status": "passed"
 });
 formatter.background({
@@ -240,7 +282,7 @@ formatter.match({
   "location": "LoginPageStepdef.user_launnch_the_application_with_url()"
 });
 formatter.result({
-  "duration": 287400,
+  "duration": 332400,
   "status": "passed"
 });
 formatter.scenario({
@@ -279,14 +321,14 @@ formatter.match({
   "location": "LoginPageStepdef.user_launnch_the_application_with_url()"
 });
 formatter.result({
-  "duration": 252600,
+  "duration": 167600,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPageStepdef.verify_the_title_the_of_login_page()"
 });
 formatter.result({
-  "duration": 353000,
+  "duration": 367500,
   "status": "passed"
 });
 formatter.match({
@@ -303,22 +345,22 @@ formatter.match({
   "location": "LoginPageStepdef.user_enter_and(String,String)"
 });
 formatter.result({
-  "duration": 6859600,
+  "duration": 7457900,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPageStepdef.user_validated_the_homepage_title()"
 });
 formatter.result({
-  "duration": 218300,
+  "duration": 104600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 74700,
+  "duration": 81400,
   "status": "passed"
 });
 formatter.before({
-  "duration": 265100,
+  "duration": 514300,
   "status": "passed"
 });
 formatter.background({
@@ -337,7 +379,7 @@ formatter.match({
   "location": "LoginPageStepdef.user_launnch_the_application_with_url()"
 });
 formatter.result({
-  "duration": 127600,
+  "duration": 95300,
   "status": "passed"
 });
 formatter.scenario({
@@ -376,14 +418,14 @@ formatter.match({
   "location": "LoginPageStepdef.user_launnch_the_application_with_url()"
 });
 formatter.result({
-  "duration": 102100,
+  "duration": 65600,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPageStepdef.verify_the_title_the_of_login_page()"
 });
 formatter.result({
-  "duration": 760600,
+  "duration": 304500,
   "status": "passed"
 });
 formatter.match({
@@ -400,18 +442,18 @@ formatter.match({
   "location": "LoginPageStepdef.user_enter_and(String,String)"
 });
 formatter.result({
-  "duration": 202500,
+  "duration": 560400,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPageStepdef.user_validated_the_homepage_title()"
 });
 formatter.result({
-  "duration": 149200,
+  "duration": 617900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 100200,
+  "duration": 146600,
   "status": "passed"
 });
 });
