@@ -3,7 +3,7 @@ Feature: Login in Application
 Background:
 Given user launnch the application with url
 
-@P0
+@P0 @Smoke
 Scenario: User Login with Valid Credentials
 And verify the title the of login page
 When user enter userid and password
