@@ -8,6 +8,7 @@ public class LaunchBrwoser {
 	public void launch_browser()  {
 	    // Write code here that turns the phrase above into concrete actions
 	   System.out.println("Test");
+	   System.out.println("Adding new line");
 	}
 
 }

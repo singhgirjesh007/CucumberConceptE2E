@@ -12,11 +12,12 @@ Then user validated the homepage title
 
 Scenario Outline: User login with multiple credentials
 Given user launnch the application with url
-And verify the title the of login page
+And verify the title the of  login page
 When user enter "<username>" and "<password>"
+And user test variable "<captain>" done
 Then user validated the homepage title
 
 Examples:
-	|username|password|
-	|test@test|ggjgjgj|
-	|test@gfhf|hggjjgk|
+	|username|password|cpatain|
+	|test@test|ggjgjgj|gghd|
+	|test@gfhf|hggjjgk|hgjgjg|
